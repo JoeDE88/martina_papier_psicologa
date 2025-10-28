@@ -1,0 +1,28 @@
+:root {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color:rgb(244, 244, 244);
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

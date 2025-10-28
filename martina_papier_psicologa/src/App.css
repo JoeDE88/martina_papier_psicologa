@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-left .logo {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.navbar-center .navbar-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-center .navbar-links li {
+    margin-right: 1rem;
+}

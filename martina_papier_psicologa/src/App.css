@@ -1,22 +1,90 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+.logo {
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
 }
 
-.navbar-left .logo {
-    text-decoration: none;
+.bi{
+    color: #241909;
     font-size: 1.8rem;
 }
 
-.navbar-center .navbar-links {
+.navbar {
+    background-color: #FBFFF1;
+    box-shadow: 0px 0.5px 8px 0.5px rgb(198, 198, 198);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+}
+
+.navbar-toggler {
+    border: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.navbar-toggler:hover {
+    box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
+    transform: translateY(-2px);
+    background-color: #6D5A72;
+    border-radius: 10px;
+}
+
+.navbar-toggler:hover .bi {
+    color: #FBFFF1;
+    transition: color 0.3s ease-out;
+}
+
+.navbar-toggler:focus {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
+    background-color: #6D5A72;
+    transform: translateY(2px);
+    color: #FBFFF1;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggler:focus .bi {
+    color: #FBFFF1;
+    transition: color 0.5s ease-in-out;
+}
+
+.navbar-nav .nav-item{
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar-center .navbar-links li {
-    margin-right: 1rem;
+.navbar-nav .nav-item a {
+    color: #241909;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+}
+
+.navbar-nav .nav-item a:hover {
+    box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
+    transform: translateY(-2px);
+    background-color: #6D5A72;
+    color: #FBFFF1;
+}
+
+.navbar-nav .nav-item a:focus {
+    box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
+    transform: translateY(2px);
+    background-color: #6D5A72;
+    color: #FBFFF1;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-link {
+    padding: 10px;
 }

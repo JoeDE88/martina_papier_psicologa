@@ -8,12 +8,17 @@
 }
 
 .bi{
-    color: #241909;
+    color: #56667A;
     font-size: 1.8rem;
 }
 
+.bi-whatsapp,.bi-envelope,.bi-linkedin {
+    color: #F4F4ED;
+    font-size: 2rem;
+}
+
 .navbar {
-    background-color: #FBFFF1;
+    background-color: #F4F4ED;
     box-shadow: 0px 0.5px 8px 0.5px rgb(198, 198, 198);
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -31,12 +36,12 @@
 .navbar-toggler:hover {
     box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
     transform: translateY(-2px);
-    background-color: #6D5A72;
+    background-color: #56667A;
     border-radius: 10px;
 }
 
 .navbar-toggler:hover .bi {
-    color: #FBFFF1;
+    color: #F4F4ED;
     transition: color 0.3s ease-out;
 }
 
@@ -44,14 +49,14 @@
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
-    background-color: #6D5A72;
+    background-color: #56667A;
     transform: translateY(2px);
-    color: #FBFFF1;
+    color: #F4F4ED;
     transition: all 0.5s ease-in-out;
 }
 
 .navbar-toggler:focus .bi {
-    color: #FBFFF1;
+    color: #F4F4ED;
     transition: color 0.5s ease-in-out;
 }
 
@@ -73,18 +78,90 @@
 .navbar-nav .nav-item a:hover {
     box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
     transform: translateY(-2px);
-    background-color: #6D5A72;
-    color: #FBFFF1;
+    background-color: #56667A;
+    color: #F4F4ED;
 }
 
 .navbar-nav .nav-item a:focus {
     box-shadow: 2px 2px 4px 1px rgb(0,0,0,0.3);
     transform: translateY(2px);
-    background-color: #6D5A72;
-    color: #FBFFF1;
+    background-color: #56667A;
+    color: #F4F4ED;
     transition: all 0.5s ease-in-out;
 }
 
 .nav-link {
     padding: 10px;
+}
+
+footer {
+    background-color: #56667A;
+    width: 100%;
+    padding: 2rem 0;
+    margin: 0;
+}
+
+.footer-font {
+    color: #F4F4ED;
+    text-align: center;
+}
+
+.footer .row {
+    margin: 0;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile-img:hover {
+  transform: scale(1.02);
+  transition: transform 0.5s ease;
+}
+
+@media (min-width: 992px) {
+  .profile-img {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-img {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .profile-img {
+    max-height: 550px;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-img {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-container {
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .text-container h1,
+  .text-container h3 {
+    margin-top: 1rem;
+  }
 }

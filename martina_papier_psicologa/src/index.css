@@ -2,15 +2,22 @@
   --bs-font-sans-serif: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color:#FBFFF1;
-  margin: 0 auto;
+  background-color:#F4F4ED;
+  margin: 0 !important;
   color: #241909;
+}
+
+html, body {
+  margin:0;
+  padding: 0;
+  height: 100%;
 }
 
 body {
   margin: 0;
-  background-color:#FBFFF1;
-  min-width: 320px;
+  background-color:#F4F4ED;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -18,7 +25,7 @@ h1 {
   font-size: 5rem;
 }
 h3 {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 
 p, a {
@@ -27,3 +34,4 @@ p, a {
   font-weight: 300;
   font-style: normal;
 }
+

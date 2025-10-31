@@ -9,7 +9,7 @@
 
 .bi{
     color: #56667A;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 }
 
 .bi-whatsapp,.bi-envelope,.bi-linkedin {
@@ -24,7 +24,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 1.2rem;
-    padding: 1.2rem;
+    padding: 2rem;
 }
 
 .navbar-toggler {
@@ -70,9 +70,8 @@
 .navbar-nav .nav-item a {
     color: #241909;
     text-decoration: none;
-    border-radius: 10px;
     transition: all 0.3s ease-in-out;
-    margin: 5px;
+    width: 100%;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -174,15 +173,17 @@ footer {
 
 @media (max-width:575px){
   .text-container {
-      padding-left: 7rem;
-      padding-right: 7rem;
-      text-align: center;
-    }
+    padding-left: 7rem;
+    padding-right: 7rem;
+    text-align: center;
+  }
+
 }
 
 @media (max-width:375px){
   .text-container {
-      padding-left: 6rem;
-      padding-right: 6rem;
-    }
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
 }

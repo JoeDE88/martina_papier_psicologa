@@ -4,7 +4,7 @@
   font-style: normal;
   background-color:#F4F4ED;
   margin: 0 !important;
-  color: #241909;
+  --bs-body-color: #241909;
 }
 
 html, body {

@@ -1,14 +1,14 @@
 export default function NavBar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
 
-          <a class="navbar-brand logo" href="#">
+          <a className="navbar-brand logo" href="#">
             MPP
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarTogglerDemo02"
@@ -18,20 +18,20 @@ export default function NavBar() {
             >
             <i className="bi bi-list"></i>
           </button>
-          <div class="collapse navbar-collapse justify-content-around" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse justify-content-around" id="navbarTogglerDemo02">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   Quien soy
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   Mis servicios
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   Contacto
                 </a>
               </li>

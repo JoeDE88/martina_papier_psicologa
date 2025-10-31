@@ -141,6 +141,11 @@ footer {
     width: 60%;
   }
 
+  .text-container h1,
+  .text-container h3 {
+    margin-top: 1rem;
+  }
+
   .profile-img {
     width: 100%;
   }

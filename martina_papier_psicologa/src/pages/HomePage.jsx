@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
-import PhotoAndDescription from "../components/PhotoAndDescription";
+import BoxPhotoDescr from "../components/BoxPhotoDescr";
 
 export default function HomePage() {
   return (
     <>
       <Layout>
-        <PhotoAndDescription/>
+        <BoxPhotoDescr />
       </Layout>
     </>
   );

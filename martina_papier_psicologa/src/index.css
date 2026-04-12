@@ -1,21 +1,22 @@
 :root {
-  --bs-font-sans-serif: "Cormorant Garamond", serif;
+  --bs-font-sans-serif: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color:#F4F4ED;
+  background-color: #F4F4ED;
   margin: 0 !important;
   --bs-body-color: #241909;
 }
 
-html, body {
-  margin:0;
+html,
+body {
+  margin: 0;
   padding: 0;
   height: 100%;
 }
 
 body {
   margin: 0;
-  background-color:#F4F4ED;
+  background-color: #F4F4ED;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -24,14 +25,19 @@ body {
 h1 {
   font-size: 4rem;
 }
-h3 {
-  font-size: 2.2rem;
+
+h2 {
+  font-size: 2.0rem;
 }
 
-p, a {
-  font-family: "DM Sans", sans-serif;
+h3 {
+  font-size: 1.9rem;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 350;
   font-style: normal;
 }
-

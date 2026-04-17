@@ -2,8 +2,11 @@ export default function Footer () {
   return (
     <footer className="footer">
       <div className="row">
-        <h3 className="footer-font">MPP</h3>
-        <p className="footer-font">Madrid, España</p>
+        <h2 className="footer-font">MPP</h2>
+        <p className="footer-font">
+          <i class="bi bi-geo-alt-fill"></i>
+          Madrid, España
+        </p>
       </div>
       <div className="row">
         <h3 className="footer-font">Contacto</h3>

@@ -2,7 +2,7 @@
   --bs-font-sans-serif: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: #F4F4ED;
+  background-color: #f4f4ed;
   margin: 0 !important;
   --bs-body-color: #241909;
 }
@@ -16,7 +16,7 @@ body {
 
 body {
   margin: 0;
-  background-color: #F4F4ED;
+  background-color: #f4f4ed;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 h3 {

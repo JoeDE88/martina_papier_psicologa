@@ -3,7 +3,6 @@ export default function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-
           <a className="navbar-brand logo" href="#">
             MPP
           </a>
@@ -15,10 +14,13 @@ export default function NavBar() {
             aria-controls="navbarTogglerDemo02"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            >
+          >
             <i className="bi bi-list"></i>
           </button>
-          <div className="collapse navbar-collapse justify-content-around" id="navbarTogglerDemo02">
+          <div
+            className="collapse navbar-collapse justify-content-around"
+            id="navbarTogglerDemo02"
+          >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">

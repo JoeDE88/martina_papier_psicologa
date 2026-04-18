@@ -1,4 +1,6 @@
-import ProPic from './ProPic';
+import BoxDescript from "./BoxDescript";
+import ProPic from "./ProPic";
+import { MARTINA } from "../constants/strings";
 
 export default function BoxPhotoDescr() {
   return (
@@ -8,26 +10,12 @@ export default function BoxPhotoDescr() {
           <ProPic />
         </div>
         <div className="col-12 col-lg-5 text-container">
-          <h1>Martina Papier</h1>
-          <h2>
-            Psicóloga especializada en{" "}
-          </h2>
-          <h3>
-            <b>
-              Trastornos de la Conducta Alimentaria
-            </b>
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quam
-            lacus, lacinia eget sem vel, condimentum placerat ipsum. Fusce quis
-            pretium mi, at sagittis eros. Mauris auctor tellus turpis, non
-            blandit elit efficitur non. Phasellus id elit lectus. Pellentesque
-            ut urna purus. Suspendisse aliquam est nec velit congue hendrerit.
-            Proin vehicula semper nunc sed bibendum. Donec laoreet rutrum
-            libero. Proin egestas vehicula semper. Fusce quis pretium mi, at
-            sagittis eros. Mauris auctor tellus turpis, non blandit elit
-            efficitur non.{" "}
-          </p>
+          <BoxDescript
+            h1={MARTINA.name}
+            h2={`${MARTINA.profession} en`}
+            h3={<b>{MARTINA.qualification}</b>}
+            text={MARTINA.description}
+          />
         </div>
       </div>
     </div>

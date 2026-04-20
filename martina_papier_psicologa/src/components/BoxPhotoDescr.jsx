@@ -5,11 +5,11 @@ import { MARTINA } from "../constants/strings";
 export default function BoxPhotoDescr() {
   return (
     <div className="container">
-      <div className="row mt-5 mb-5 d-flex justify-content-center">
-        <div className="col-12 col-lg-5 mb-lg-0 foto-card">
+      <div className="row d-flex my-5">
+        <div className="col-12 col-xl-6 d-flex justify-content-center">
           <ProPic />
         </div>
-        <div className="col-12 col-lg-5 text-container">
+        <div className="col-12 col-xl-6 text-container justify-content-center">
           <BoxDescript
             h1={MARTINA.name}
             h2={`${MARTINA.profession} en`}

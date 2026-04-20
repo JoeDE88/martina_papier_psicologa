@@ -103,7 +103,6 @@
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   background-color: #56667a;
   width: 100%;
@@ -124,92 +123,29 @@ footer {
   --bs-card-border-radius: none;
 }
 
-.foto-card {
-  max-width: 100%;
-}
-
 .profile-img {
-  width: 90%;
-  max-height: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
-.foto:hover {
+.profile-img:hover {
   transform: scale(1.02);
   transition: transform 0.5s ease;
 }
 
-@media (max-width: 1400px) {
-  .profile-img {
-    width: 100%;
-  }
-
-  h1 {
-    font-size: 3.4rem;
-  }
-
-  .text-container h1,
-  .text-container h3 {
-    width: 100%;
-  }
-}
-
 @media (max-width: 1200px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 991px) {
-  .foto-card {
-    width: 70%;
-  }
-
-  .text-container h1,
-  .text-container h3 {
-    margin-top: 1rem;
-  }
-
   .profile-img {
-    width: 100%;
+    width: 70%;
+    height: auto;
   }
 
   .text-container {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .text-container h1,
-  .text-container h3 {
-    margin-top: 1rem;
-  }
-
-  .text-container {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  h3 {
-    margin: 0 !important;
+    padding-inline: 9.5rem;
   }
 }
 
 @media (max-width: 575px) {
   .text-container {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .text-container {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-inline: 4.5rem;
   }
 }

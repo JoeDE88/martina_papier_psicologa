@@ -7,11 +7,6 @@
   font-size: 3rem;
 }
 
-.bi {
-  color: #56667a;
-  font-size: 2.5rem;
-}
-
 .bi-whatsapp,
 .bi-envelope,
 .bi-linkedin {
@@ -44,7 +39,7 @@
 .navbar-toggler:hover {
   box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.3);
   transform: translateY(-2px);
-  background-color: #56667a;
+  background-color: var(--bs-emphasis-color-rgb);
   border-radius: 10px;
 }
 
@@ -57,7 +52,7 @@
   border-radius: 10px;
   border: none;
   box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.3);
-  background-color: #56667a;
+  background-color: var(--bs-emphasis-color-rgb);
   transform: translateY(2px);
   color: #f4f4ed;
   transition: all 0.5s ease-in-out;
@@ -86,14 +81,14 @@
 .navbar-nav .nav-item a:hover {
   box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.3);
   transform: translateY(-2px);
-  background-color: #56667a;
+  background-color: var(--bs-emphasis-color-rgb);
   color: #f4f4ed;
 }
 
 .navbar-nav .nav-item a:focus {
   box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.3);
   transform: translateY(2px);
-  background-color: #56667a;
+  background-color: var(--bs-emphasis-color-rgb);
   color: #f4f4ed;
   transition: all 0.5s ease-in-out;
 }

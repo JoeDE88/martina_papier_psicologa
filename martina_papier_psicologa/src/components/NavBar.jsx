@@ -15,7 +15,10 @@ export default function NavBar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="bi bi-list"></i>
+            <h2 className="bi">
+            Menú
+            </h2>
+            {/* <i className="bi bi-list"></i> */}
           </button>
           <div
             className="collapse navbar-collapse justify-content-around"
@@ -23,19 +26,32 @@ export default function NavBar() {
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
+                <h5>
                 <a className="nav-link active" aria-current="page" href="#">
-                  Quien soy
+                  Inicio
                 </a>
+                </h5>
               </li>
               <li className="nav-item">
+                <h5>
                 <a className="nav-link active" aria-current="page" href="#">
-                  Mis servicios
+                  Sobre mi
                 </a>
+                </h5>
               </li>
               <li className="nav-item">
+                <h5>
+                <a className="nav-link active" aria-current="page" href="#">
+                  Acompañamiento
+                </a>
+                </h5>
+              </li>
+              <li className="nav-item">
+                <h5>
                 <a className="nav-link active" aria-current="page" href="#">
                   Contacto
                 </a>
+                </h5>
               </li>
             </ul>
           </div>

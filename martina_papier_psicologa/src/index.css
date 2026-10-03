@@ -4,9 +4,9 @@
   font-style: normal;
   background-color: #f4f4ed;
   margin: 0 !important;
-  --bs-body-color: #8d7b74;
+  --bs-body-color: #694F3F;
   /* EVERY TEXT, BUTTON COLOR COMES FROM HERE */
-  --bs-emphasis-color-rgb: #8d7b74;
+  --bs-emphasis-color-rgb: #694F3F;
 }
 
 html,

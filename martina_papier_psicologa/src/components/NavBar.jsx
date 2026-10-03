@@ -15,10 +15,7 @@ export default function NavBar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <h2 className="bi">
-            Menú
-            </h2>
-            {/* <i className="bi bi-list"></i> */}
+            <i className="bi bi-list"></i>
           </button>
           <div
             className="collapse navbar-collapse justify-content-around"

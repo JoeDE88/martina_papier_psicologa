@@ -5,8 +5,8 @@
   background-color: #f4f4ed;
   margin: 0 !important;
   --bs-body-color: #694F3F;
-  /* EVERY TEXT, BUTTON COLOR COMES FROM HERE */
-  --bs-emphasis-color-rgb: #694F3F;
+  /* EVERY BUTTON COLOR COMES FROM HERE */
+  --bs-emphasis-color-rgb: #C3ACCE;
 }
 
 html,

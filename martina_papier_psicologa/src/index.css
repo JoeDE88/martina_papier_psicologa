@@ -6,7 +6,11 @@
   margin: 0 !important;
   --bs-body-color: #694F3F;
   /* EVERY BUTTON COLOR COMES FROM HERE */
-  --bs-emphasis-color-rgb: #C3ACCE;
+  /* Amethyst smoker */
+  --bs-emphasis-color-rgb: #B084CC;
+
+  /* Aquamarine: #1AFFD5  */
+  /* Banana cream: #FFE74C */
 }
 
 html,

@@ -12,8 +12,9 @@ export default function BoxPhotoDescr() {
         <div className="col-12 col-xl-6 text-container justify-content-center">
           <BoxDescript
             h1={MARTINA.name}
-            h2={`${MARTINA.profession} en`}
-            h3={<b>{MARTINA.qualification}</b>}
+            h2={`${MARTINA.profession}`}
+            h3={MARTINA.qualification}
+            h4={MARTINA.phrase}
             text={MARTINA.description}
           />
         </div>

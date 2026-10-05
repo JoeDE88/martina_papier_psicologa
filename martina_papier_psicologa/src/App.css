@@ -24,12 +24,11 @@
 }
 
 .navbar {
-  background-color: #f4f4ed;
+  background-color: #FFFFFA;
   box-shadow: 0px 0.5px 8px 0.5px rgb(198, 198, 198);
-  font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
-  font-size: 1.2rem;
+  /* font-weight: 300; */
+  /* font-size: 1.2rem; */
   padding: 2rem;
   --bs-navbar-nav-link-padding-x: 1rem;
 }
@@ -101,11 +100,23 @@
   padding: 10px;
 }
 
+.home-btn {
+  color: #f4f4ed;
+  background-color: var(--bs-emphasis-color-rgb);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 25px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.3);
+}
+
 footer {
   bottom: 0;
   background-color: var(--bs-emphasis-color-rgb);
   width: 100%;
-  padding: 2rem 0;
+  padding: 1.8rem 0;
   margin: 0;
 }
 
@@ -139,12 +150,12 @@ footer {
   }
 
   .text-container {
-    padding-inline: 9.5rem;
+    padding-inline: 6.5rem;
   }
 }
 
 @media (max-width: 575px) {
   .text-container {
-    padding-inline: 4.5rem;
+    padding-inline: 4.2rem;
   }
 }
